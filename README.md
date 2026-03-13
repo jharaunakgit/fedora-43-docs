@@ -45,50 +45,50 @@ BIOS) and whether the OS uses Secure Boot.
 
 ## 4 Creating Installation Media  
 ### 4.1 Downloading the ISO  
-1. On the Fedora website, choose the “Workstation” edition for x86_64 architecture.  
-2. Save the ISO to the computer.  
-3. (Optional) Using the sha256sum or equivalent, compute the checksum and compare it with the
+* On the Fedora website, choose the “Workstation” edition for x86_64 architecture.  
+* Save the ISO to the computer.  
+* (Optional) Using the sha256sum or equivalent, compute the checksum and compare it with the
 published one.  
 
 ### 4.2 Writing the ISO to USB  
-1. Insert the USB stick (8 GB or larger).  
-2. Open your chosen tool (Fedora Media Writer, Rufus, Etcher)  
-3. Select the downloaded ISO and choose the USB device as the target.  
-4. Start the write process and then eject the drive once the process is completed.  
+* Insert the USB stick (8 GB or larger).  
+* Open your chosen tool (Fedora Media Writer, Rufus, Etcher)  
+* Select the downloaded ISO and choose the USB device as the target.  
+* Start the write process and then eject the drive once the process is completed.  
 
 ### 4.3 Verifying bootability  
-1. Reboot your system and enter the firmware (BIOS/UEFI) boot menu (typically by pressing
+* Reboot your system and enter the firmware (BIOS/UEFI) boot menu (typically by pressing
 F2/F10/Esc/F12).  
-2. Select the USB drive.  
-3. If you see the “Fedora” installer menu, you are ready to proceed.  
+* Select the USB drive.  
+* If you see the “Fedora” installer menu, you are ready to proceed.  
 
 ## 5 Booting the Installer  
-1. Boot from the USB drive under UEFI mode (recommended).  
-2. At the boot menu, select **Test this media and Start Fedora-Workstation-Live** and press
+* Boot from the USB drive under UEFI mode (recommended).  
+* At the boot menu, select **Test this media and Start Fedora-Workstation-Live** and press
 Enter.  
-3. The Fedora Installer will start.  
+* The Fedora Installer will start.  
 
 ## 6 Installation Summary & Configuration  
 ### 6.1 Keyboard  
 In the language page, you will also be able to change the keyboard layout if you want.  
 
 ### 6.2 Destination  
-1. Now, you will have to select the drive where you want to install the system.  
-2. It will consist of three options. These options will help in determining whether you
+* Now, you will have to select the drive where you want to install the system.  
+* It will consist of three options. These options will help in determining whether you
 want to dual-boot the system or use the entire drive.  
-3. Lastly, you can also select the option of mount point assignment. This way, you will be able
+* Lastly, you can also select the option of mount point assignment. This way, you will be able
 to assign partitions to mount points.  
 
 ### 6.3 Encryption  
 Now, the next option will be to select encryption. You may ignore this step.  
 
 ### 6.4 Confirmation  
-1. This page will give you a recap of the options that you have selected in the installation process.  
-2. You can finally select the erase data and install after the careful analysis of each selection.  
+* This page will give you a recap of the options that you have selected in the installation process.  
+* You can finally select the erase data and install after the careful analysis of each selection.  
 
 ### 6.5 Installing Page 
-1. After the entire process is complete, you will be able to see the successful installation page.  
-2. You can select the “Exit to Live Desktop” option.  
+* After the entire process is complete, you will be able to see the successful installation page.  
+* You can select the “Exit to Live Desktop” option.  
 
 ## 7 First‑Boot Setup  
 ### 7.1 Welcome  
